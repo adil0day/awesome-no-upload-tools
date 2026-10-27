@@ -1,0 +1,50 @@
+name: Suggest a tool
+description: Add a free tool that processes files in the browser, without uploading them.
+title: "Add: "
+labels: ["new tool"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name and link
+      placeholder: "Squoosh: https://squoosh.app"
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options: [PDF, Images and photos, "Documents, spreadsheets and slides", CSV and data, File conversion, Audio, Encryption, Developer tools, Diagrams and whiteboards, "Study, citations and maths", Business, SEO and web, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: One plain sentence, with no marketing words.
+    validations:
+      required: true
+  - type: input
+    id: proof
+    attributes:
+      label: Proof that files stay in the browser
+      description: A link to the tool's README, docs, FAQ or privacy terms that says so.
+    validations:
+      required: true
+  - type: textarea
+    id: exceptions
+    attributes:
+      label: Features that do use a server
+      description: Exports, AI, cloud saving, lookups and so on. Write "None found" if there aren't any.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It's free for the basic job, with no required account and no watermark.
+          required: true
+        - label: I tried it with the browser's Network tab open, or offline.
+        - label: The source code is public under an open-source licence (🟢).
+        - label: It keeps working offline after the first load (✈️).

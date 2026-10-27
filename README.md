@@ -13,6 +13,9 @@ Each entry was checked against the tool's own documentation or privacy terms. Wh
 - [Images and photos](#images-and-photos)
 - [Documents, spreadsheets and slides](#documents-spreadsheets-and-slides)
 - [CSV and data](#csv-and-data)
+- [File conversion](#file-conversion)
+- [Audio](#audio)
+- [Encryption](#encryption)
 - [Developer tools](#developer-tools)
 - [Diagrams and whiteboards](#diagrams-and-whiteboards)
 - [Study, citations and maths](#study-citations-and-maths)
@@ -40,6 +43,7 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 
 ## Images and photos
 
+- [miniPaint](https://viliusle.github.io/miniPaint/) 🟢: a layered image editor with filters, crop and drawing tools that opens PNG, JPG, WEBP, GIF and TIFF. Its README says nothing is sent to a server. MIT (per the README).
 - [Squoosh](https://squoosh.app) 🟢 ✈️: Google Chrome Labs' image compressor. It compares codecs side by side and processes images locally with WebAssembly.
 - [Photopea](https://www.photopea.com) ✈️: a full layered photo editor that opens PSD, XCF, Sketch and more. Its terms say opened files are processed on your own hardware. Its privacy terms don't cover the newer AI features, so treat those separately.
 - [Cromagnon Image Studio](https://cromagnon.app/studios/image-studio) ✈️: light, colour, curves and HSL, crop, resize, compress and convert to WEBP or AVIF, with batch export. Masks and background removal run on the device.
@@ -50,6 +54,7 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 - [Cromagnon Document Studio](https://cromagnon.app/studios/document-studio) ✈️: write and edit real DOCX files, with templates, mail merge and compare.
 - [Cromagnon Excel Studio](https://cromagnon.app/studios/excel-studio) ✈️: open and edit XLSX files with working formulas, formats, filters and several sheets.
 - [Cromagnon Presentation Studio](https://cromagnon.app/studios/presentation-studio) ✈️: open, edit, present and export PowerPoint (PPTX) decks, including to PDF and video.
+- [StackEdit](https://stackedit.io/app) 🟢 ✈️: a Markdown editor that keeps documents in the browser's own storage, with export to Markdown, HTML and PDF. Google Drive and Dropbox sync are optional. Apache-2.0.
 - [Cromagnon universal file viewer](https://cromagnon.app/tools/universal-file-viewer): open PDF, Word, Excel, slides, images, email and ZIP files without installing anything.
 
 ## CSV and data
@@ -59,15 +64,29 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 - [Cromagnon CSV Studio](https://cromagnon.app/studios/csv-studio) ✈️: profile columns, clean, deduplicate, split, merge, pivot and chart large CSV files.
 - [Cromagnon CSV splitter](https://cromagnon.app/tools/csv-splitter), [CSV to JSON](https://cromagnon.app/tools/csv-to-json) and [JSON to CSV](https://cromagnon.app/tools/json-to-csv): quick single-job converters.
 
+## File conversion
+
+- [VERT](https://vert.sh) 🟢: converts images, audio and documents between hundreds of formats with WebAssembly, on your device. **Video is the exception:** the official site converts video on its server, unless you host VERT yourself. AGPL-3.0.
+
+## Audio
+
+- [AudioMass](https://audiomass.co) ✈️: a waveform audio editor for cut, trim, fade, EQ, compression, reverb and pitch, with MP3 export. It runs in the browser with no backend. The source is on GitHub, but without a standard licence.
+
+## Encryption
+
+- [hat.sh](https://hat.sh) 🟢: encrypts and decrypts files in the browser with libsodium (XChaCha20-Poly1305, Argon2id). Its README says no data is collected or sent. Safari and mobile browsers are limited to 1 GB files. MIT.
+
 ## Developer tools
 
 - [CyberChef](https://gchq.github.io/CyberChef/) 🟢 ✈️: GCHQ's "Cyber Swiss Army Knife" for encoding, decoding, hashing, compression and data analysis. Its README says input is never sent to the server. The HTTP request and DNS-over-HTTPS operations contact hosts you choose, by design.
+- [JSON Crack](https://jsoncrack.com/editor) 🟢: turns JSON, YAML, CSV and XML into an interactive graph you can explore. The project says all data processing is local. Apache-2.0.
 - [IT-Tools](https://it-tools.tech) 🟢 ✈️: a large set of developer utilities, including UUIDs, JWT, converters and network calculators, built as a fully client-side app. GPL-3.0.
 - [Cromagnon developer tools](https://cromagnon.app/tools?category=Developer): JSON formatter, regex tester, JWT decoder, SQL formatter, cron parser, hash generator and more.
 
 ## Diagrams and whiteboards
 
 - [Excalidraw](https://excalidraw.com) 🟢 ✈️: a hand-drawn style whiteboard. Drawings autosave in the browser, and live collaboration is end-to-end encrypted.
+- [tldraw](https://www.tldraw.com): an infinite canvas whiteboard. When you're signed out, drawings are stored on your own computer (browser storage). Signed-in files are saved to tldraw's cloud. The SDK is source-available under its own licence.
 - [draw.io](https://app.diagrams.net) 🟢: flowcharts and diagrams, saved to your device or the storage you choose. Exporting to PDF (and to images in old browsers) sends the diagram to draw.io's server, where it's deleted after delivery. A "lockdown" setting turns that off.
 
 ## Study, citations and maths
