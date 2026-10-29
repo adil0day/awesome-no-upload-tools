@@ -48,6 +48,7 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 - [Photopea](https://www.photopea.com) ✈️: a full layered photo editor that opens PSD, XCF, Sketch and more. Its terms say opened files are processed on your own hardware. Its privacy terms don't cover the newer AI features, so treat those separately.
 - [Cromagnon Image Studio](https://cromagnon.app/studios/image-studio) ✈️: light, colour, curves and HSL, crop, resize, compress and convert to WEBP or AVIF, with batch export. Masks and background removal run on the device.
 - [Cromagnon image compressor](https://cromagnon.app/tools/image-compressor), [converter](https://cromagnon.app/tools/image-converter) and [favicon generator](https://cromagnon.app/tools/favicon-generator): single-job image tools.
+- [Quick Image Kit](https://quickimagekit.com): compress toward a target KB size, resize, convert, crop and generate favicons in the browser; its privacy policy says image files are not uploaded to an application server.
 
 ## Documents, spreadsheets and slides
 
