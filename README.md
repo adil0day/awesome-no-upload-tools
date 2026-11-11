@@ -49,6 +49,7 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 - [Cromagnon Image Studio](https://cromagnon.app/studios/image-studio) ✈️: light, colour, curves and HSL, crop, resize, compress and convert to WEBP or AVIF, with batch export. Masks and background removal run on the device.
 - [Cromagnon image compressor](https://cromagnon.app/tools/image-compressor), [converter](https://cromagnon.app/tools/image-converter) and [favicon generator](https://cromagnon.app/tools/favicon-generator): single-job image tools.
 - [Quick Image Kit](https://quickimagekit.com): compress toward a target KB size, resize, convert, crop and generate favicons in the browser; its privacy policy says image files are not uploaded to an application server.
+- [Free Image Resizer](https://free-image-resizer.web-free.site/en/) ✈️: resize, compress, crop, rotate and convert images (HEIC/WebP/PNG/JPG) with processing in the browser; meta description states images stay on your device.
 
 ## Documents, spreadsheets and slides
 
