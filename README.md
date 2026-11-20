@@ -55,6 +55,7 @@ Open source is marked 🟢. Works offline after the first load is marked ✈️.
 - [Cromagnon Document Studio](https://cromagnon.app/studios/document-studio) ✈️: write and edit real DOCX files, with templates, mail merge and compare.
 - [Cromagnon Excel Studio](https://cromagnon.app/studios/excel-studio) ✈️: open and edit XLSX files with working formulas, formats, filters and several sheets.
 - [Cromagnon Presentation Studio](https://cromagnon.app/studios/presentation-studio) ✈️: open, edit, present and export PowerPoint (PPTX) decks, including to PDF and video.
+- [PPT Merger](https://pptmerger.org): merge several PowerPoint (PPTX) files into one deck, keeping each deck's own theme, animations and media, with slide selection and reordering.
 - [StackEdit](https://stackedit.io/app) 🟢 ✈️: a Markdown editor that keeps documents in the browser's own storage, with export to Markdown, HTML and PDF. Google Drive and Dropbox sync are optional. Apache-2.0.
 - [Cromagnon universal file viewer](https://cromagnon.app/tools/universal-file-viewer): open PDF, Word, Excel, slides, images, email and ZIP files without installing anything.
 
